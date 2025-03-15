@@ -24,6 +24,8 @@ int main() {
 		cout << "YW: Doughnut Who?" << endl;
 		cout << "TN: Oh that reminds me that I have doughnuts for lunch!" << endl;
 		break;
+        default:
+		cout << "Please choose again." << endl;
 	}
 	return 0;
 }
